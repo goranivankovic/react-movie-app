@@ -25,6 +25,7 @@ export default class SearchMovies extends Component {
    
    async eraseInputVal(e){
         e.preventDefault()
+    
       
         try {
             let inputBox = document.getElementById('inputBox')
@@ -34,7 +35,7 @@ export default class SearchMovies extends Component {
            
           
 
-            const response = await Axios.get(`https://www.omdbapi.com/?t=${this.state.movie}&apikey=141d8efa`);
+            const response = await Axios.get(`https://www.omdbapi.com/?t=${this.state.movie}&apikey=${process.env.REACT_APP_MOVIE_KEY}`);
 
             firstDiv.innerHTML=`<img src="${response.data.Poster}".jpg>`;
             secondDiv.innerHTML=`
