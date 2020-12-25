@@ -1,0 +1,106 @@
+.mainDiv{
+    background-color:#6A6A6A;
+    height: 300vh;
+    width: 100%;
+}
+.mainDiv2{
+    background-color:#6A6A6A;
+    height: 105vh;
+    width: 100%;
+    
+}
+
+.mainDiv3{
+    background-color:#6A6A6A;
+    height: 120vh;
+    width: 100%;
+    
+}
+.mainDiv3 #titleText{
+    color:#aa0909;
+}
+
+.naslov{
+    color: white;
+}
+.spaceBetwenImages{
+    display: flex;
+    justify-content: space-around;
+
+}
+.x1{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: white;
+    max-width: 70%;
+    
+    
+}
+
+
+
+@media only screen and (max-width:768px){
+ 
+    .mainDiv{
+        height: 1890vh;
+        
+    }
+    .x1{
+        transform: scale(0.8);
+    }
+    .mainDiv3{
+        height: 220vh;
+    }
+    
+
+
+}
+
+@media only screen and (max-width:650px){
+ 
+    .mainDiv{
+        height: 1890vh;
+        
+    }
+    .x1{
+        position: absolute;
+        top: 25%;
+        transform: scale(0.7);
+        max-width: 80%;
+    }
+
+
+}
+
+@media only screen and (max-width:530px){
+ 
+    .mainDiv{
+        height: 1890vh;
+        
+    }
+    .x1{
+      
+        max-width: 85%;
+        transform: scale(0.70);
+    }
+
+
+}
+@media only screen and (max-width:450px){
+ 
+    .mainDiv{
+        height: 1890vh;
+        
+    }
+    .x1{
+     
+        max-width: 90%;
+        transform: scale(0.7);
+    }
+
+
+}
+
+
+
