@@ -31,7 +31,7 @@ import SearchMovies from './components/SearchMovies.js';
 
 ReactDOM.render(
   <BrowserRouter>
-  
+  <div>
     <Switch>
 
 
@@ -67,7 +67,7 @@ ReactDOM.render(
 
 
 </Switch>
-
+</div>
    </BrowserRouter > 
  ,
   document.getElementById('root')
