@@ -21,6 +21,7 @@ import Ipman from './routes/Ipman.js'
 import BlackP from './routes/BlackP.js'
 import CasinoRoyal from './routes/CasinoRoyal.js'
 import ManStell from './routes/ManStell.js'
+import { HashRouter } from 'react-router-dom'
 
 
 

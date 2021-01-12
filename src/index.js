@@ -22,19 +22,20 @@ import BlackP from './routes/BlackP.js'
 import CasinoRoyal from './routes/CasinoRoyal.js'
 import ManStell from './routes/ManStell.js'
 import Titanic from './routes/Titanic.js';
-import {BrowserRouter ,Switch,Route} from 'react-router-dom';
+import {HashRouter  ,Switch,Route} from 'react-router-dom';
 import Movie from './components/Movie';
 import SearchMovies from './components/SearchMovies.js';
 
 
 
+
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter >
   
     <Switch>
 
 
-   
+
     <Route path="/" exact component ={Movie} />
     <Route  path="/movies/titanic" exact component ={Titanic} />
     <Route path="/movies/wonderwomen" exact component ={WonderWomen} />
@@ -67,7 +68,7 @@ ReactDOM.render(
 
 </Switch>
 
-   </BrowserRouter> 
+   </HashRouter > 
  ,
   document.getElementById('root')
 );

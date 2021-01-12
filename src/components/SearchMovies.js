@@ -62,6 +62,13 @@ export default class SearchMovies extends Component {
           
           } catch (error) {
             console.error(error);
+  
+            this.setState({
+                movie:''
+            })
+         
+
+           
           }
      
 
