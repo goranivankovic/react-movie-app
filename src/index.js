@@ -22,7 +22,7 @@ import BlackP from './routes/BlackP.js'
 import CasinoRoyal from './routes/CasinoRoyal.js'
 import ManStell from './routes/ManStell.js'
 import Titanic from './routes/Titanic.js';
-import {BrowserRouter  ,Switch,Route, BrowserRouter} from 'react-router-dom';
+import {BrowserRouter  ,Switch,Route} from 'react-router-dom';
 import Movie from './components/Movie';
 import SearchMovies from './components/SearchMovies.js';
 
