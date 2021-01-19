@@ -1,6 +1,6 @@
 .mainDiv{
     background-color:#6A6A6A;
-    height: 300vh;
+    height: 320vh;
     width: 100%;
 }
 .mainDiv2{
@@ -37,13 +37,16 @@
     
     
 }
+.footerPocetnaMain{
+    background-color:#4d4d4d;
+}
 
 
 
 @media only screen and (max-width:768px){
  
     .mainDiv{
-        height: 1890vh;
+        height: 1950vh;
         
     }
     .x1{
@@ -60,7 +63,7 @@
 @media only screen and (max-width:650px){
  
     .mainDiv{
-        height: 1890vh;
+        height: 1650vh;
         
     }
     .x1{
@@ -72,11 +75,25 @@
 
 
 }
+@media only screen and (max-width:580px){
+ 
+    .mainDiv{
+        height: 1850vh;
+        
+    }
+    .l{
+        font-size: 1em;
+    }
+ 
+
+}
+
+
 
 @media only screen and (max-width:530px){
  
     .mainDiv{
-        height: 1890vh;
+        height: 1740vh;
         
     }
     .x1{
@@ -90,7 +107,7 @@
 @media only screen and (max-width:450px){
  
     .mainDiv{
-        height: 1890vh;
+        height: 1650vh;
         
     }
     .x1{

@@ -6,6 +6,8 @@ import Img from '../images.js'
 import NavBar from '../components/NavBar.js'
 import {Link} from 'react-router-dom';
 import Titanic from '../routes/Titanic';
+import {FaInstagram,FaGithub,FaPhone} from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 
 class Movie extends  React.Component{
 constructor(props){
@@ -506,7 +508,22 @@ const padd10={
                 </Row>
             </Container>           
 
+      <br></br>
 
+      <Container className="footerPocetnaMain" >
+                    <Row>
+                        <Col className="col-12 text-right"> <h2><span className="text-primary navBrend l">gmi-computing </span></h2>
+                        </Col>
+                        <Col className="col-12">
+                        <h5 className="text-light">Email:<MdEmail className="text-primary"/>   gogadesignweb@gmail.com</h5><br></br>
+                        <h5  className="text-light">Github: <a href='https://github.com/goranivankovic'> <FaGithub /></a></h5><br></br>
+                        <h5  className="text-light">Telephone:<FaPhone className="text-primary" />  +381/064-415-68-13</h5><br></br>
+                        <h5  className="text-light">Instagram: <a href='https://www.instagram.com/'><FaInstagram /> </a>  </h5>
+                        
+                        </Col>
+                    </Row>
+                </Container>
+                <br></br>
 
 
 
