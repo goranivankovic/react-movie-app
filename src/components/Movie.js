@@ -510,7 +510,7 @@ const padd10={
 
       <br></br>
 
-      <Container className="footerPocetnaMain" >
+      {/* <Container className="footerPocetnaMain" >
                     <Row>
                         <Col className="col-12 text-right"> <h2><span className="text-primary navBrend l">gmi-computing </span></h2>
                         </Col>
@@ -523,7 +523,7 @@ const padd10={
                         </Col>
                     </Row>
                 </Container>
-                <br></br>
+                <br></br> */}
 
 
 
